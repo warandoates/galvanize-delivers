@@ -1,69 +1,53 @@
-#photo {
-  height: 100%;
-  background-image: url(../galvanize-delivers/img/hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+body {
+  background-color: #DFE2DB;
 }
-/*.card {
-  position: relative;
-  background-color: #f4f4f4;
-  // margin: 10px auto;
-  height: 50%;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.7);
+.cssYellow {
+  color: #191919;
 }
-
-.card {
-  height: 50%;
-}
-
-.card .card-image img {
-  //object-fit: contain !important;
-}*/
-
 /* label color */
    .input-field label {
-     color: orange;
+     color: #191919;
    }
    /* label focus color */
    .input-field input[type=text]:focus + label {
-     color: orange;
+     color: #191919;
    }
    /* label underline focus color */
    .input-field input[type=text]:focus {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
    /* valid color */
    .input-field input[type=text].valid {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
    /* invalid color */
    .input-field input[type=text].invalid {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
    /* icon prefix focus color */
    .input-field .prefix.active {
-     color: orange;
+     color: #191919;
    }
 
 
    .input-field input[type=number]:focus + label {
-     color: orange;
+     color: #191919;
    }
    /* label underline focus color */
    .input-field input[type=number]:focus {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
    /* valid color */
    .input-field input[type=number].valid {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
    /* invalid color */
    .input-field input[type=number].invalid {
-     border-bottom: 1px solid orange;
-     box-shadow: 0 1px 0 0 orange;
+     border-bottom: 1px solid #191919;
+     box-shadow: 0 1px 0 0 #191919;
    }
